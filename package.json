@@ -1,0 +1,16 @@
+{
+  "name": "export-es",
+  "version": "1.0.0",
+  "description": "Export ES transctions to CSV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Javier Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.9.0",
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.0"
+  }
+}
